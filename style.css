@@ -5,6 +5,7 @@ body{
     font-size: 15px;
     line-height: 1.8;
     font-weight: 300;
+    overflow-x: hidden;
 }
 header nav .container{
     display:flex;
@@ -49,6 +50,7 @@ header nav .container ul{
  #home{
     text-align: center;
     background-image: url(images/bg_3.jpg);
+    background-attachment: fixed;
     background-size: cover;
     padding-top: 250px;
  }
@@ -96,6 +98,7 @@ header nav .container ul{
  }
  #about h1{
     background-image: url(images/food.png);
+    background-attachment: fixed;
     text-align: center;
     color: #fff;
     padding: 50px;
@@ -103,6 +106,7 @@ header nav .container ul{
  }
  #about .row  {
     background-image: url(images/bg_4.jpg);
+    background-attachment: fixed;
  }
  #about .row .div2{
     padding: 5%;
@@ -126,6 +130,7 @@ header nav .container ul{
  }
  #services{
     background-image: url(images/food.png);
+    background-attachment: fixed;
  }
  #services .container{
     text-align: center;
@@ -163,5 +168,14 @@ header nav .container ul{
  #menu{
     background-image: url(images/bg_4.jpg);
     background-size: cover;
+    background-attachment: fixed;
  }
- 
+ #menu .row .all .image-resize{
+   height: 300px;
+   object-fit: cover;
+   object-position: center center;
+ }
+ #menu .row .all{
+   display: grid;
+   gap: 0;
+ }
