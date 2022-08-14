@@ -308,12 +308,13 @@ header nav .container ul{
    width: 450px;
    border: transparent ;
    border-bottom: 1px solid rgba(255, 255, 255, 0.2) ;
-   height: 90px;
+   height: 100px;
    background: transparent ;
    color:#fff;
    font-size: 15px;
    outline: none;
    padding-top: 20px;
+   overflow: hidden;
 }
 #contactUs .row button{
    color: black;
