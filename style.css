@@ -104,9 +104,10 @@ header nav .container ul{
     padding: 50px;
     margin-bottom: 0px;
  }
- #about .row  {
+ #about  .div2 , #about .chef , #about .ll{
     background-image: url(images/bg_4.jpg);
     background-attachment: fixed;
+    padding-bottom: 130px;
  }
  #about .row .div2{
     padding: 5%;
@@ -170,12 +171,214 @@ header nav .container ul{
     background-size: cover;
     background-attachment: fixed;
  }
+ #menu .container {
+   text-align: center;
+   padding-top: 100px;
+ }
+ #menu .container h1{
+   color: #fff;
+   font-size: 30px;
+ }
+ #menu .container p{
+   color: gray;
+   padding-bottom: 70px;
+ }
  #menu .row .all .image-resize{
-   height: 300px;
+   height: 100%;
+
    object-fit: cover;
    object-position: center center;
  }
- #menu .row .all{
-   display: grid;
-   gap: 0;
+ #menu .row .all .card{
+   background-image: url(images/bg_4.jpg);
+   background-attachment: fixed;
  }
+ #menu .row .all .card h3{
+   color: #fff;
+   font-size: 20px;
+ }
+ #menu .row .all .card p{
+   color: gray;
+ }
+ #menu .row .all .card span{
+   color:#fac564;
+   margin-right: 10px;
+ }
+ #menu .row .all .card button{
+   color: #fff;
+   border:1px  #fff solid;
+   background-color: transparent;
+   padding: 0px 5px ;
+ }
+ #menu .row .all .card button:hover{
+   background-color: #fac564;
+   color: black;
+   border-color: #fac564;
+ }
+ #menu .ss{
+   padding-top: 150px;
+ }
+ #menu .ss .sas{
+   margin-left: 40px;
+   margin-top: 40px;
+ }
+ #menu .ss .active{
+   color: black;
+   background-color: #fac564;
+   border: 1px  #fac564 solid;
+   padding: 5px 20px;
+   font-size: larger;
+ }
+ #menu .ss .btn1{
+   margin: 4px;
+   background-color: transparent;
+   color: #fac564;
+   border: 1px  #fac564 solid;
+   padding: 5px 20px;
+   font-size: larger;
+ }
+ #menu .ss .btn1:hover{
+   color: black;
+   background-color: #fac564;
+ }
+ .dd{
+   text-align: center;
+   margin-top: 50px;
+ }
+.dd img{
+   border-radius: 50%;
+}
+.dd h2{
+   color: #fff;
+   font-size: 25px ;
+   margin-top: 30px;
+}
+.dd p{
+   color: gray;
+   font-size: 16px;
+}
+.dd span{
+   color: #fac564;
+   display: block;
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+.dd button{
+   color: #fff;
+   border:1px  #fff solid;
+   background-color: transparent;
+   padding: 0px 13px ;
+   margin-bottom: 65px;
+}
+.dd button:hover{
+   background-color: #fac564;
+   color: black;
+   border-color: #fac564;
+}
+#contactUs{
+   background-color: rgb(18, 16, 16);
+}
+#contactUs iframe{
+   width: 100%;
+   height: 100%;
+   opacity: 0.5;
+}
+#contactUs .row .ff{
+   padding-left: 60px;
+}
+#contactUs .row h1{
+   color: #fff;
+   font-size: 30px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+#contactUs .row input{
+   display: block;
+   width: 450px;
+   border: transparent ;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.2) ;
+   height: 80px;
+   background: transparent ;
+   color:#fff;
+   font-size: 15px;
+   outline: none;
+}
+#contactUs .row textarea{
+   display: block;
+   width: 450px;
+   border: transparent ;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.2) ;
+   height: 90px;
+   background: transparent ;
+   color:#fff;
+   font-size: 15px;
+   outline: none;
+   padding-top: 20px;
+}
+#contactUs .row button{
+   color: black;
+   background-color: #fac564;
+   padding: 15px 25px;
+   margin-top: 15px;
+   margin-bottom: 100px;
+}
+#contactUs .row button:hover{
+   color: #fac564;
+   border-color: #fac564;
+   background: transparent;
+}
+footer{
+   background-color:#101315 ;
+   padding-top: 100px;
+   overflow: hidden;
+}
+footer h2{
+   color: #fff;
+   font-size: 20px;
+   margin-bottom: 40px;
+}
+footer .container .row p{
+   color:gray;
+   font-size: 18px;
+   margin-bottom: 30px;
+}
+footer .ico i{
+   color: #fff;
+   font-size: 28px;
+   padding: 10px;
+   border: 1px transparent solid;
+   border-radius: 50%;
+   background-color: rgb(32, 30, 30);
+   margin-left: 13px;
+}
+footer .foo h5{
+   font-size: 18px;
+   padding: 10px;
+}
+footer .foo h5 a{
+   color: gray;
+   text-decoration: none;
+}
+footer .foo h5 a:hover{
+   color: #fff;
+}
+footer .con{
+   color: gray;
+   font-size: 18px;
+}
+footer .con span{
+   display: flex;
+   margin-bottom: 18px;
+}
+footer .con i{
+   color: #fff;
+   margin-left: -5px;
+   padding-right: 30px;
+   margin-top: 10px;
+}
+footer .copy{
+   color: gray;
+   text-align: center;
+   font-size: 18px;
+   margin: 130px;
+}
